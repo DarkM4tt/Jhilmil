@@ -10,11 +10,16 @@ A React.js web application for managing homecare services and patient informatio
 - Quick links to recent patients and popular services.
 - Responsive grid layout for key metrics.
 
+![alt text](image.png)
+
 ### 2. Patient Management
 
 - **List View:** Displays patients with status badges (Active/Inactive) and key details.
 - **Search & Filter:** Functional search bar (by name) and dropdown filters for Status and Care Type.
 - **Detail View:** Modal popup showing complete patient details, assigned caregiver, and medical notes.
+
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 ### 3. Services & Booking System
 
@@ -24,10 +29,15 @@ A React.js web application for managing homecare services and patient informatio
   - Auto-fills the selected service name.
 - **Persistence:** Bookings are saved to `localStorage` to simulate a backend.
 
+![alt text](image-3.png)
+![alt text](image-4.png)
+
 ### 4. My Bookings (Bonus Feature)
 
 - A dedicated page to view all appointments booked by the user.
 - Retrieves data from local storage to display booking history even after refreshing the page.
+
+![alt text](image-5.png)
 
 ---
 
