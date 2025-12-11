@@ -76,3 +76,10 @@ Follow these steps to run the project locally:
    ```
 
 4. **Open in browser: Visit http://localhost:5173 (or the port shown in your terminal).**
+
+📝 **Assumptions Made:-**
+**Authentication:** No login system was required by the assignment, so the app assumes a "logged-in" admin/user state by default.
+
+**Data Persistence:** Since no real backend was provided, localStorage is used to persist "Bookings" so the user can see the result of their actions across page reloads. Patient and Service data are read-only mock data.
+
+**Design System:** Used a medical/clean aesthetic with blue primary colors to match the "Homecare" theme, utilizing Tailwind for responsiveness.
