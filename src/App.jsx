@@ -1,12 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Layout/Navbar";
+import Dashboard from "./pages/Dashboard";
+import Patients from "./pages/Patients";
 
-const Dashboard = () => (
-  <div className="p-8 text-center text-gray-500">Dashboard Loading...</div>
-);
-const Patients = () => (
-  <div className="p-8 text-center text-gray-500">Patients Loading...</div>
-);
 const Services = () => (
   <div className="p-8 text-center text-gray-500">Services Loading...</div>
 );
