@@ -59,8 +59,8 @@ Follow these steps to run the project locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone <your-repo-link-here>
-   cd jhilmil-homecare
+   git clone https://github.com/DarkM4tt/Jhilmil.git
+   cd jhilmil
    ```
 
 2. **Install dependencies:**
